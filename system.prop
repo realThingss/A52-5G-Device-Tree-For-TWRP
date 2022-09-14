@@ -1,0 +1,24 @@
+# Device release name
+ro.display.series=Samsung Galaxy A52 5G
+
+# product/board stuff
+ro.product.board=lito
+ro.board.platform=lito
+
+# USB and MTP stuff
+persist.sys.usb.config=mtp
+sys.usb.controller=a600000.dwc3
+
+# Dynamic partition
+ro.boot.dynamic_partitions=true
+
+# Encryption
+vendor.gatekeeper.disable_spu=true
+fbe.metadata.wrappedkey=true
+
+# Disable Rescue Party
+persist.sys.disable_rescue=true
+
+# AVB
+ro.boot.avb_version=1.0
+ro.boot.vbmeta.avb_version=1.0
